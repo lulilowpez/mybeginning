@@ -1,0 +1,26 @@
+
+{box-sizing:border-box}
+html, body {height: 100%;align-items: center;
+    align-content: center;background: rgb(245, 207, 245);}
+body{margin: 0;display:flex;
+    justify-content: center; align-items: center;flex-direction: column}
+main{
+    display:flex;
+    justify-content: center;
+flex-direction: column;}
+form,fieldset{background: rgb(170, 91, 170);
+     width:600px;
+height:200;
+margin:auto;
+display:flex;
+flex-direction: column;
+align-items:center;
+justify-content: center;
+box-sizing: border-box;}
+fieldset{padding-inline-end:0; padding-inline-start: 0;
+margin: 0;box-sizing: border-box;}
+h4{color: hsla(180, 34%, 64%, 3.5);}
+h1{color: hsla(180, 34%, 64%, 3.5);}
+h4::selection{color:deeppink;}
+h1::selection{color:deeppink;}
+input [type="submit"]{background: blueviolet;}
