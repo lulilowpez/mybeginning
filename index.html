@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styleindex.css">
+    </head>
+        <body>
+              <aside>
+                  <nav id="main-nav" aria-label="Main">
+                    <h3>Tienda de Ropa</h3>
+                       <ul>
+                          <li><a href="index.html"><button class="parrafo">inicio</button></a></li>
+                          <li><a href="listar.php" target="_parent"><button class="parrafo">Listar ropa</button></a></li>
+                          <li><a href="agregar.html" target="parent"><button class="parrafo">Agregar ropa</button></a></li>
+                       </ul>
+                       <form name="filtros" method="post" action="">
+                        <label>Seleccione un filtro</label>
+                        <select name="filtro" onchange="location.href=filtros.filtro.value;">
+                        <option value="C:\xampp\htdocs\practica8\nike.php">Nike</option>
+                        <option value="http://youtube.com">Buzos</option>
+                        <option value="http://gmail.com">Precio mayor a 500</option>
+                        </select>
+                        </form>
+                        
+                       <ul>
+                        <li><a href="nike.php"><button class="parrafo">Nike</button></a></li>
+                        <li><a href="buzos.php" target="_parent"><button class="parrafo">Buzos</button></a></li>
+                        <li><a href="mayora500.php" target="parent"><button class="parrafo">Precio mayor a 500</button></a></li>
+                     </ul>
+                  </nav>
+              </aside>
+            <header>
+                <h1> Bienvenidx al Campus de tareas de Backend de LUCIANA BELEN LOPEZ</h1>
+                
+            </header>
+ <main>
+ </main>
+
+  <footer>
+    <hr>
+    LUCIANA BELEN LOPEZ - All rights reserved
+    <hr>
+ </footer> 
+
+      
+ </body>
+   
+</html>
