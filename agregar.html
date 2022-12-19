@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="styleindex.css">
+        <title>Tienda De Ropa</title>
     </head>
         <body>
               <aside>
@@ -8,9 +9,8 @@
                     <h3>Tienda de Ropa</h3>
                        <ul>
                           <li><a href="index.html"><button class="parrafo">inicio</button></a></li>
-                          <li><a href="listar.php" target="_parent"><button class="parrafo">Listar ropa</button></a></li>
-                          <li><a href="agregar.html" target="parent"><button class="parrafo">Agregar ropa</button></a></li>
                        </ul>
+                       <h3>Filtros</h3>
                        <ul>
                         <li><a href="nike.php"><button class="parrafo">Nike</button></a></li>
                         <li><a href="buzos.php" target="_parent"><button class="parrafo">Buzos</button></a></li>
@@ -23,11 +23,26 @@
                 
             </header>
  <main>
+    <h3>Tienda de Ropa</h3>
+    <p>Ingrese los datos de la prenda</p>
+    <form method="POST" action="agregar.php" enctype="multipart/form-data">
+    <label>Tipo de prenda</label>
+    <input type="text" name="tipodeprenda" placeholder="Tipo de prenda">
+    <label>Marca</label>
+    <input type="text" name="marca" placeholder="Marca" required>
+    <label>Talle</label>
+    <input type="text" name="talle" placeholder="Talle" required>
+    <label>Precio</label>
+    <input type="text" name="precio" placeholder="Precio" required>
+    <label>Imagen</label>
+    <input type="file" name="imagen" placeholder="Imagen">
+    <input type="submit" name="agregar">
+   </form>
  </main>
 
   <footer>
     <hr>
-   <p> LUCIANA BELEN LOPEZ - All rights reserved</p>
+    <p>LUCIANA BELEN LOPEZ - All rights reserved</p>
     <hr>
  </footer> 
 
